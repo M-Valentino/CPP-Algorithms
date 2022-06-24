@@ -10,6 +10,7 @@ int main(int argc, char *argv[]) {
     char continueLoop = 'y';
     // This value is incremented and is reset  to 0 at the end of the while loop.
     int numberOfOpenDoors = 0;
+    
     while (continueLoop == 'y') {
         cout << "How many locker doors should there be?" << endl;
         cin >> numberOfLockers;
